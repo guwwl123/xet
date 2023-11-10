@@ -461,7 +461,7 @@ def create_directory(path):
 
 
 def download(url, video_name, work_dir, shop_name, course_name):
-    tool_path = r'C:\Users\wanligu\Documents\GG\code_learning\tools\N_m3u8DL-CLI_v3.0.2\N_m3u8DL-CLI_v3.0.2.exe'
+    tool_path = r'N_m3u8DL-CLI_v3.0.2.exe'
     shop_folder = os.path.join(work_dir, shop_name)
     video_folder = os.path.join(shop_folder, course_name)
     create_directory(video_folder)
